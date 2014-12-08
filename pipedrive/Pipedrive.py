@@ -1,4 +1,3 @@
-import json
 import requests
 
 
@@ -19,7 +18,7 @@ class PipedriveAPIClient:
                 raise ValueError("Pipedrive credentials must be provided as strings.")
 
     def request_api_key(self, user_email, user_password):
-        credentials = json.dumps({'email': user_email, 'password': user_password})
+        credentials = {'email': user_email, 'password': user_password}
         authorization_url = self.pipedrive_base_url + "/authorizations"
 
         authorization_response = requests.post(authorization_url, data=credentials)

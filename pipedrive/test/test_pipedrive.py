@@ -1,4 +1,3 @@
-import json
 from unittest import TestCase
 from mock import patch
 import responses
@@ -14,7 +13,8 @@ class TestClientInitialization(TestCase):
         client = PipedriveAPIClient(api_token='some_api_token')
         self.assertEqual(client.api_token, "some_api_token")
 
-    def test_user_credentials_as_string_creates_client(self):
+    @patch("requests.post")
+    def test_user_credentials_as_string_creates_client(self, requests_post_mock):
         client = PipedriveAPIClient(user_email="some_email@test.com", user_password="some_password")
         self.assertIsNotNone(client)
 
