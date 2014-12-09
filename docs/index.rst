@@ -6,6 +6,8 @@
 Welcome to pipedrive's documentation!
 =====================================
 
+Python client for the Pipedrive API.
+
 Contents:
 
 .. toctree::

@@ -6,7 +6,6 @@ Subpackages
 
 .. toctree::
 
-    pipedrive.test
 
 Submodules
 ----------
