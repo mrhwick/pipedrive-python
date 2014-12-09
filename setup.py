@@ -34,7 +34,7 @@ setup(
                       'requests>=2.5.0',
                       'responses>=0.3.0',
                       'six>=1.8.0',
-                      'wsgiref>=0.1.2'],
+                      ],
     cmdclass={},
     author_email='anthony@blar.do',
     description='Python library for interacting with the Pipedrive API.',
