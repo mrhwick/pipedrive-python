@@ -10,7 +10,7 @@ deploy:
   provider: pypi
   user: mrhwick
   password:
-    secure: YWFzJ2f9hFY90LD18GziWrHgOZI0cziShU+7jzYLw7pXjJltqjOC7sEkIKboa8/eaukLNkkQdLK2v0zave0LGY0FL8r3YSbjjeB9Zin3WIcHScXyQbYDbvzFbDNNxbRFvctCLazf16RE7tAsX4LpU6nagY4ivTtkNHz5M/zb9yQ=
+    secure: jfVQ20SidrYaq5C4eOMxOXUNTAs7KN1FKY/Hyr1WYr/aSWCdLjhEaSLS/6P9AX4CNm7MnPHlNCieja4zUemFMQCJa6TFllkQ5Fw+wGZKzE//yi/kX6dt06lTYq1PYta+sM6wfS86BSn/CjCKQ+kGg9aY6MwbJ8wnqxWpz2uvjAY=
   on:
     tags: true
     all_branches: true
