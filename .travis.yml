@@ -1,10 +1,15 @@
 language: python
 python:
-  - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
-# command to install dependencies
-install: "pip install -r requirements.txt"
-# command to run tests
+- '2.7'
+- '3.2'
+- '3.3'
+- '3.4'
+install: pip install -r requirements.txt
 script: nosetests
+deploy:
+  provider: pypi
+  user: mrhwick
+  password:
+    secure: TuBmssgOKlKL+kF1lE+eZhe2uo3v8/sc7+/xTBzXN3OgXWLa1HYmkye1cBKAQhUDgk2hOQLfGzRpH58Vmug0IXZxHzx87JRIKiGHuXvCrcctrV8Q4Ie3QzcA1xx6bmZyF3WJWH427wRQrpMtSTedRblbTBIJBm83JpUFKeNA7Pc=
+  on:
+    tags: true

@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/bellhops/pipedrive-python.svg?branch=master)](https://travis-ci.org/bellhops/pipedrive-python)
+[![Documentation Status](https://readthedocs.org/projects/pipedrive-python/badge/?version=latest)](http://pipedrive-python.readthedocs.org)
+[![Version](https://img.shields.io/pypi/v/pipedrive-python.svg)](https://pypi.python.org/pypi/pipedrive-python/)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://badges.mit-license.org)
-![](https://reposs.herokuapp.com/?path=Bellhops/pipedrive-python)
+![Size](https://reposs.herokuapp.com/?path=Bellhops/pipedrive-python)
 
 pipedrive-python
 ================
