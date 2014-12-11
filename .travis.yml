@@ -6,14 +6,6 @@ python:
 - '3.4'
 install: pip install -r requirements.txt
 script: nosetests
-deploy:
-  provider: pypi
-  user: mrhwick
-  password:
-    secure: jfVQ20SidrYaq5C4eOMxOXUNTAs7KN1FKY/Hyr1WYr/aSWCdLjhEaSLS/6P9AX4CNm7MnPHlNCieja4zUemFMQCJa6TFllkQ5Fw+wGZKzE//yi/kX6dt06lTYq1PYta+sM6wfS86BSn/CjCKQ+kGg9aY6MwbJ8wnqxWpz2uvjAY=
-  on:
-    tags: true
-    all_branches: true
 cache:
   directories:
   - /home/travis/virtualenv/python2.7/lib/python2.7/site-packages
